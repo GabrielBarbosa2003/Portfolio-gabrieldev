@@ -1,0 +1,45 @@
+.sobre{
+    height: 30rem;
+    width: 70rem;
+    margin: auto;
+    margin-top: 25rem;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+}
+
+.foto img{
+    height: 25rem;
+    border-radius: 20%;
+    height: 400px;
+}
+
+.texto h1{
+    color: #1E90FF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding-left: 6rem;
+    text-decoration-style: solid;
+}
+.texto h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding-left: 6rem;
+}
+.texto p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-left: 6rem;
+    font-style: oblique;
+    
+    
+}
+
+#foto{
+    grid-area: foto;
+}
+#texto{
+    grid-area: texto ;
+}

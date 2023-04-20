@@ -1,0 +1,55 @@
+.final{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    grid-template-areas: 
+    'text-dev cv-footer';
+}
+.dev-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    padding-left: 6rem;
+    font-style: oblique;
+}
+
+.cv{
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding-left: 6rem;
+    font-style: oblique;
+    flex-direction: column;
+    padding-right: 10rem;
+}
+.cv button{
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 1px solid;
+    transition-duration: 0.4s;
+    
+}
+
+.cv button:hover {
+    background-color: #DEB887; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+hr{
+    border: 1px solid gray;
+    margin-top: 5rem;
+}
+
+#text-dev{
+    grid-area: text-dev;
+}
+#cv-footer{
+    grid-area: cv-footer;
+}

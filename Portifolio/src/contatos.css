@@ -1,0 +1,58 @@
+.contato-rodape{
+    display: grid;
+
+    grid-template-areas: 
+    'descricao contato';
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10rem;
+
+}
+.descricao{
+    padding: 3rem;
+}
+.descricao h1{
+    font-size: 30px;
+    padding-left: 6rem;
+    font-style: oblique;
+}
+.descricao p{
+    font-size: 15px;
+    padding-left: 6rem;
+    font-style: oblique;
+}
+.contatos{
+    font-size: 15px;
+    padding-right: 15rem;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contatos .logos{
+    gap: 5rem;
+  
+}
+.contatos .logos .email{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    padding-bottom: 1rem;
+  
+}
+.contatos .logos .discord{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+  
+}
+
+#descricao{
+    grid-area: descricao;
+}
+#contato{
+    grid-area: contato;
+}
