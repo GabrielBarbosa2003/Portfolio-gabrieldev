@@ -9,6 +9,7 @@ import { Twitter } from './twitter'
 import { Organo } from './organo'
 import { Contatos } from './contatos'
 import { Rodape } from './rodape'
+import { Expe } from './experiencias'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Sobre/>
     <Twitter/>
     <Organo/>
+    <Expe/>
     <Contatos/>
     <Rodape/>
     

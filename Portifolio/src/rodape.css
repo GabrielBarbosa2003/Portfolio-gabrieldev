@@ -6,6 +6,8 @@
     padding-bottom: 5rem;
     grid-template-areas: 
     'text-dev cv-footer';
+    --yellow: #ffbb00;
+    --accent: var(--sky);
 }
 .dev-text{
     font-family: 'Courier New', Courier, monospace;
@@ -27,14 +29,15 @@
 .cv button{
     font-size: 20px;
     padding: 12px 28px;
-    border-radius: 8px;
+    border-radius: 50px;
     border: 1px solid;
     transition-duration: 0.4s;
+    cursor: pointer;
     
 }
 
 .cv button:hover {
-    background-color: #DEB887; 
+    background-color: #e9ceac; 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
@@ -46,6 +49,8 @@ hr{
     border: 1px solid gray;
     margin-top: 5rem;
 }
+
+
 
 #text-dev{
     grid-area: text-dev;
