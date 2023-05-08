@@ -28,6 +28,12 @@
     font-size: larger;
     padding-left: 6rem;
 }
+.experiencia h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding-left: 6rem;
+    padding-bottom: 3px;
+}
 .experiencia p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;

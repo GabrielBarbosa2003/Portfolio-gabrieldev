@@ -6,7 +6,7 @@ export function Contatos() {
         <footer className='contato-rodape'>
             <footer className='descricao' id='resumo'>
                 <h1>Contatos</h1>
-                <p>Estou em busca de Freelances ou vagas para Desenvolvedor React e NodeJs</p>
+                <p>Estou em busca de Freelances ou vagas para Desenvolvedor React e/ou NodeJs</p>
                 <p>Se ficou interessado, entre em contato comigo através do meu email ou Discord!</p>
             </footer>
 

@@ -1,6 +1,5 @@
 import { GithubLogo, LinkedinLogo } from '@phosphor-icons/react'
 import './home.css'
-import { SiJavascript } from "react-icons/Si";
 import jslogo from './assets/javascript.png'
 import tylogo from './assets/typescript.png' 
 import html from './assets/html.svg'
