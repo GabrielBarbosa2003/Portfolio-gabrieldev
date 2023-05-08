@@ -12,9 +12,10 @@ export function Menu() {
                 <nav id='start'>
 
                     <a href='#start'>Home</a>
-                    <a href='#ancora-about'>About</a>
-                    <a href='#projects-start'>Projects</a>
-                    <a href=''>Contact</a>
+                    <a href='#ancora-about'>Sobre</a>
+                    <a href='#projects-start'>Projetos</a>
+                    <a href='#ancora-exp'>Experiências</a>
+                    <a href='#ancora-contato'>Contato</a>
                 </nav>
             </div>
 

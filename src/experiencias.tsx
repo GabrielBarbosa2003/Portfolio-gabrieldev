@@ -4,9 +4,7 @@ import code from './assets/dev4.jpg'
 export function Expe() {
     return (
         <>
-            <div id='ancora-about'></div>
-
-
+            <div id='ancora-exp'></div>
             <div id='about' className='expe'>
                 <div className='pic'>
                     <img src={code} alt='code image' />

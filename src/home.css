@@ -2,7 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .home{
-    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
 }
 .home-text{
     padding-top: 13rem;
@@ -18,15 +21,24 @@
     width: 20rem;
     height: 20rem;
     border-radius: 9999px;
-    position: absolute;
-    top: 10rem;
-    right: 20rem;
+    margin-right: 15rem;
+}
+
+#textc{
+    grid-area: textc;
+}
+#fotoc{
+    grid-area: fotoc;
 }
 
 /*sociais*/
 .sociais a{
     color: black;
     text-decoration: none;
+}
+.textc .sociais nav{
+    padding-left: 20rem;
+    
 }
 
 /*skills*/
@@ -38,6 +50,7 @@
     padding-top: 10rem;
     font-size: 20px;
     font-weight: bold;
+    padding-left: 20rem;
 
 }
 .skills .icons img{

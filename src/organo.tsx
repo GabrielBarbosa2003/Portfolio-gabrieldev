@@ -11,8 +11,8 @@ export function Organo() {
                 <p>Organo é um formulario de criação de times de programação, feito com JavaScript.</p>
 
                 <nav className='repositorios'>
-                    <a href=''> <GithubLogo size={30} /></a>
-                    <a href=''> <ArrowSquareOut size={30} /> </a>
+                    <a href='https://github.com/GabrielBarbosa2003/Organo-React' target="_blank"> <GithubLogo size={30} /></a>
+                    <a href='' target="_blank"> <ArrowSquareOut size={30} /> </a>
                 </nav>
             </div>
 

@@ -20,8 +20,8 @@ export function Twitter (){
                     <p>Twitter foi meu primeiro projeto em TypeScript com React, um projeto responsivo e funcional</p>
 
                     <nav className='repositorios'>
-                        <a href='https://github.com/GabrielBarbosa2003/Twitter'> <GithubLogo size={30} /></a>
-                        <a href=''> <ArrowSquareOut size={30} /> </a>
+                        <a href='https://github.com/GabrielBarbosa2003/Twitter' target="_blank"> <GithubLogo size={30} /></a>
+                        <a href='' target="_blank"> <ArrowSquareOut size={30} /> </a>
                     </nav>
                 </div>
 
