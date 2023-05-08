@@ -12,7 +12,7 @@ export function Organo() {
 
                 <nav className='repositorios'>
                     <a href='https://github.com/GabrielBarbosa2003/Organo-React' target="_blank"> <GithubLogo size={30} /></a>
-                    <a href='' target="_blank"> <ArrowSquareOut size={30} /> </a>
+                    <a href='https://organo-react-coral.vercel.app/' target="_blank"> <ArrowSquareOut size={30} /> </a>
                 </nav>
             </div>
 
