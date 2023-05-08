@@ -21,7 +21,7 @@ export function Twitter (){
 
                     <nav className='repositorios'>
                         <a href='https://github.com/GabrielBarbosa2003/Twitter' target="_blank"> <GithubLogo size={30} /></a>
-                        <a href='' target="_blank"> <ArrowSquareOut size={30} /> </a>
+                        <a href='https://twitter-eight-woad.vercel.app/' target="_blank"> <ArrowSquareOut size={30} /> </a>
                     </nav>
                 </div>
 
