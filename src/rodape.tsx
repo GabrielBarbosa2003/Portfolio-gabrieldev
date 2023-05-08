@@ -1,13 +1,9 @@
 import { ReadCvLogo } from '@phosphor-icons/react'
 import './rodape.css'
 import cv from './assets/currículo.pdf'
-import { useState } from 'react'
 import { motion } from "framer-motion";
 
-const urlCvdowload = 'https://drive.google.com/u/0/uc?id=1WEqBhzI-Tq79oZThZrYT62Ny_lDEkFpa&export=download'
-
 export function Rodape() {
-    const [download, setdowload] = useState('')
     return (
         <>
             <hr />
@@ -24,11 +20,9 @@ export function Rodape() {
                         whileHover={{ scale: 1.1 }}
                         transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     >
-                        <button onClick={() => { setdowload(urlCvdowload) }}>Baixar cv</button>
+                        <a href={cv} download={'CV.Gabriel_Barbosa.pdf'}><button>Baixar cv</button></a>
                     </motion.div>
                     
-
-                    {download && <iframe src={download} style={{ display: 'none' }}></iframe>}
 
                 </footer>
             </footer>
