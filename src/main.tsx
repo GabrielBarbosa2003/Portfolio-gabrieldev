@@ -10,6 +10,7 @@ import { Organo } from './organo'
 import { Contatos } from './contatos'
 import { Rodape } from './rodape'
 import { Expe } from './experiencias'
+import { Space } from './Space'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Sobre/>
     <Twitter/>
     <Organo/>
+    <Space/>
     <Expe/>
     <Contatos/>
     <Rodape/>

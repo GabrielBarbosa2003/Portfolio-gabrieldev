@@ -1,6 +1,5 @@
 import './twitter.css'
 import twitter from './assets/twitter.jpg'
-import organo from './assets/organo.jpg'
 import { ArrowSquareOut, GithubLogo } from '@phosphor-icons/react'
 export function Twitter (){
     return(

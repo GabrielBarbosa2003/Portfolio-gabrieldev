@@ -16,7 +16,7 @@ export function Home() {
             <div className='textc'>
                 <div className='home-text'>
                     <h1>Desenvolvedor FullStack React e NodeJs</h1>
-                    <p> Olá, me chamo Gabriel Barbosa, e sou desenvolvedor Fullstack</p>
+                    <p> Olá, me chamo Gabriel Barbosa, e sou desenvolvedor Fullstack.</p>
                     <p> Seja bem vindo ao meu portifólio!</p>
                 </div>
                 <div className='sociais'>
