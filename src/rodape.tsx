@@ -1,6 +1,6 @@
 import { ReadCvLogo } from '@phosphor-icons/react'
 import './rodape.css'
-import cv from './assets/cv.GabrielBarbosa.pdf'
+import cv from './assets/CV.GabrielBarbosa.pdf'
 import { motion } from "framer-motion";
 
 export function Rodape() {
