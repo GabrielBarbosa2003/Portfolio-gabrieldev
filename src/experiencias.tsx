@@ -13,7 +13,7 @@ export function Expe() {
                 <div className='experiencia'>
                     <h1>Minhas Experiências</h1>
                     <h2>Um pouco das minhas experiências como Dev:</h2>
-                    <p>Atualmente sou desenvolvedor na Funcamp e já participei de diversos projetos com diversas linguagens, e aqui estao algumas delas!</p>
+                    <p>Atualmente sou desenvolvedor na Funcamp e já participei de diversos projetos com diversas linguagens, e aqui estão algumas delas!</p>
                     <h3>Netsuite - Tempo de atuação: 1 ano</h3>
                     <p>Netsuite é um sistema ERP da oracle, onde programamos com JavaScript e SuiteScripts. Dentro desse projeto, fui responsavel por participar de diversas reuniões, onde era me passado
                         o problema da empresa enfrentado, e entao através das informações e especificação, buscava a soluçao através dos códigos.
