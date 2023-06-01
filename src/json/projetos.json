@@ -1,0 +1,31 @@
+
+[
+    {
+        "id": 1,
+        "imagem":"/Assets/fotosProjetos/twitter.jpg",
+        "titulo": "Twitter",
+        "linguagem": "Linguagem: React Type",
+        "texto": "Twitter foi meu primeiro projeto em TypeScript com React, um projeto responsivo e funcional",
+        "git": "https://github.com/GabrielBarbosa2003/Twitter",
+        "vercel": "https://twitter-eight-woad.vercel.app/"
+    },
+    {
+        "id": 2,
+        "imagem":"/Assets/fotosProjetos/organo.jpg",
+        "titulo": "Organo",
+        "linguagem": "Linguagem: React JS",
+        "texto": "Organo é um formulario de criação de times de programação, feito com JavaScript.",
+        "git": "https://github.com/GabrielBarbosa2003/Organo-React",
+        "vercel": "https://organo-react-coral.vercel.app/"
+    },
+    {
+        "id": 3,
+        "imagem":"/Assets/fotosProjetos/space.png",
+        "titulo": "Space",
+        "linguagem": "Linguagem: React JS",
+        "texto": "Space é uma galeria de imagens! Desfrute das imagens do universo com um toque da magia da programação.",
+        "git": "https://github.com/GabrielBarbosa2003/space",
+        "vercel": "https://space-six-wine.vercel.app/"
+    }
+
+]

@@ -1,5 +1,5 @@
 import './space.css'
-import space from './assets/space.png'
+import space from '../../assets/space.png'
 
 import { ArrowSquareOut, GithubLogo } from '@phosphor-icons/react'
 

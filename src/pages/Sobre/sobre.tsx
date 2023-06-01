@@ -1,5 +1,5 @@
 import './sobre.css'
-import code from './assets/code.jpg'
+import code from '../../assets/code.jpg'
 export function Sobre() {
     return (
         <>

@@ -1,6 +1,6 @@
 import './experiencias.css'
 
-import code from './assets/dev4.jpg'
+import code from '../../assets/dev4.jpg'
 export function Expe() {
     return (
         <>

@@ -1,12 +1,12 @@
 import { GithubLogo, LinkedinLogo } from '@phosphor-icons/react'
 import './home.css'
-import jslogo from './assets/javascript.png'
-import tylogo from './assets/typescript.png'
-import html from './assets/html.svg'
-import css from './assets/css.png'
-import react from './assets/react.png'
-import node from './assets/node.png'
-import mysql from './assets/mysql.svg'
+import jslogo from '../../assets/javascript.png'
+import tylogo from '../../assets/typescript.png'
+import html from '../../assets/html.svg'
+import css from '../../assets/css.png'
+import react from '../../assets/react.png'
+import node from '../../assets/node.png'
+import mysql from '../../assets/mysql.svg'
 
 // <span> <SiJavascript size={20}/> </span>
 

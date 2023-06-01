@@ -1,0 +1,34 @@
+.modelo{ 
+    height: 30rem;
+    width: 70rem;
+    margin: auto;
+    margin-top: 5rem;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.modelo .text{
+    font-size: 10px;
+    padding-right: 10rem;
+    font-style: oblique;
+   
+}
+.modelo .text p{
+    font-size: 17px;
+    padding-left: 10px;
+    font-style: oblique;
+    color: #808080;
+}
+.text .repositorios a{
+    color: black;
+    text-decoration: none;
+
+}
+/*Imagens*/
+.modelo img{
+    height: 30rem;
+    border-radius: 5%;
+    width: 40rem;
+}

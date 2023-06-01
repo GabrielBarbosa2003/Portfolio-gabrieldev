@@ -1,6 +1,6 @@
 import { ArrowSquareOut, GithubLogo } from '@phosphor-icons/react'
 import './organo.css'
-import organo from './assets/organo.jpg'
+import organo from '../../assets/organo.jpg'
 
 export function Organo() {
     return (
