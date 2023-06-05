@@ -6,38 +6,38 @@
     },
     {
         "id":2,
-        "imagem":"/Assets/fotosProjetos/fotosCertificados/projetosAgeis.jpg",
-        "titulo": "img2"
-    },
-    {
-        "id":3,
         "imagem":"/Assets/fotosProjetos/fotosCertificados/ReactcomJavaScript.jpg",
         "titulo": "img3"
     },
     {
-        "id":4,
+        "id":3,
         "imagem":"/Assets/fotosProjetos/fotosCertificados/ReactComponentes.jpg",
         "titulo": "img4"
     },
     {
-        "id":5,
+        "id":4,
         "imagem":"/Assets/fotosProjetos/fotosCertificados/ReactContextApi.jpg",
         "titulo": "img5"
     },
     {
-        "id":6,
+        "id":5,
         "imagem":"/Assets/fotosProjetos/fotosCertificados/ReactDesenvolvendocomJavaScript.jpg",
         "titulo": "img6"
     },
     {
-        "id":7,
+        "id":6,
         "imagem":"/Assets/fotosProjetos/fotosCertificados/ReactNative.jpg",
         "titulo": "img7"
     },
     {
-        "id":8,
+        "id":7,
         "imagem":"/Assets/fotosProjetos/fotosCertificados/ReactRouter.jpg",
         "titulo": "img8"
+    },
+    {
+        "id":8,
+        "imagem":"/Assets/fotosProjetos/fotosCertificados/projetosAgeis.jpg",
+        "titulo": "img2"
     }
     
 ]

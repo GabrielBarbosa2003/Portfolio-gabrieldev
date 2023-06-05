@@ -1,6 +1,6 @@
 import posts from "../../json/projetos.json"
-import Modelo1 from "../../components/modelosProjetos/Modelo1"
-import Modelo2 from "../../components/modelosProjetos/Modelo2"
+import Modelo1 from "../../components/modelosProjetos/modelo1/Modelo1"
+import Modelo2 from "../../components/modelosProjetos/modelo2/Modelo2"
 
 
 export function Projetos() {
