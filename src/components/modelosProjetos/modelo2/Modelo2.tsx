@@ -1,8 +1,9 @@
 import { ArrowSquareOut, GithubLogo } from '@phosphor-icons/react'
 import styles from './modelo2.module.css'
+import { IModelo } from '../../../compartilhado/IModelo'
 
 
-export default function Modelo2({id, imagem, titulo, linguagem, texto, git, vercel}:any) {
+export default function Modelo2({imagem, titulo, linguagem, texto, git, vercel}:IModelo) {
     return (
         <div className={styles.modelo}>
         <div className={styles.text}>

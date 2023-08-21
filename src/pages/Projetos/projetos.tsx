@@ -8,14 +8,13 @@ export function Projetos() {
         <ul>
             {posts.map((post) => {
                 if (post.id % 2 == 1) {
-                    console.log(post.imagem)
                     return (
-                        <Modelo1 id={post.id} imagem={post.imagem} titulo={post.titulo} linguagem={post.linguagem} texto={post.texto} git={post.git} vercel={post.vercel} posicao={post.id} />
+                        <Modelo1 imagem={post.imagem} titulo={post.titulo} linguagem={post.linguagem} texto={post.texto} git={post.git} vercel={post.vercel} />
                     )
 
                 } else {
                     return (
-                        <Modelo2 id={post.id} imagem={post.imagem} titulo={post.titulo} linguagem={post.linguagem} texto={post.texto} git={post.git} vercel={post.vercel} posicao={post.id} />
+                        <Modelo2 imagem={post.imagem} titulo={post.titulo} linguagem={post.linguagem} texto={post.texto} git={post.git} vercel={post.vercel}  />
                     )
                 }
             })}
